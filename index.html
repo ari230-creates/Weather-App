@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Enter city name">
+            <button class="search-button">🔍</button>
+        </div>
+        
+        <div class="weather-loading">
+            Loading weather data...
+        </div>
+
+        <div class="weather-display">
+            <h2 class="city">Weather in [City]</h2>
+            <h1 class="temp">25°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/01d.png" alt="" class="icon" />
+                <div class="description">Clear Sky</div>
+            </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 6.2 km/h</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
