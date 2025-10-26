@@ -4,7 +4,7 @@ A beginner-friendly, standalone web application that fetches and displays real-t
 
 🚀 Live Demo
 
-(Replace this placeholder text with a link to your live demo, e.g., on GitHub Pages or Netlify)
+
 View Demo Here
 
 ✨ Features
